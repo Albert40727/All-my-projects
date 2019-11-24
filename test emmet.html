@@ -1,0 +1,42 @@
+<!--
+!+Tab會自動新增好HTML格式
+-->
+
+<!--
+Ctrl+x清除整行
+Ctrl+d複製整行至下一段
+Ctrl+e快速編輯
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url("First css.css");
+    </style>
+    <title>創作表單ddd</title>
+</head>
+<body>
+    <form action="http://httpbin.org/get" method="get">
+        <fieldset>
+            帳號:<input type=text name="account" placeholder="ex:Albert" size="10" required><br/>
+            密碼:<input type=password name="password" placeholder="ex:password" size="10" required><br/><br/>
+            <select name="choice" >
+                <optgroup label="First">
+                    <option class="other" value="1">第一選項</option>
+                    <option id="option2" value="2">第二選項</option>
+                    <option value="3">第三選項</option>
+                </optgroup>
+                <optgroup label="Second">
+                    <option value="4">第一選項</option>
+                    <option value="5">第二選項</option> 
+                    <option value="6">第三選項</option>
+                </optgroup>
+            </select><br/>
+            <input type="submit" value="Log in"><br>
+        </fieldset>
+    </form><br/>
+    <iframe src="https://goo.gl/maps/6qVE4kS5Z87cpLrd7" width="640" height="480"/>
+</body>
+</html>

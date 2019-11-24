@@ -1,0 +1,10 @@
+.other {
+    color : red
+}
+#option2 {
+    color : aquamarine
+}
+optgroup > option {
+    color :brown;
+    font-family:serif;
+}
